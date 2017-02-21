@@ -2,8 +2,8 @@ var db;
 var catdb;
 function dbAccess()
 {
-	db = new PouchDB('https://295204ce-46c2-4803-a3fd-c028c41b89d9-bluemix:b9f1524b5e88baef65f76b4f33498665a4e3bbeee2efbc7392c93b14f79acc4a@295204ce-46c2-4803-a3fd-c028c41b89d9-bluemix.cloudant.com');
-	catdb = new PouchDB('https://295204ce-46c2-4803-a3fd-c028c41b89d9-bluemix:b9f1524b5e88baef65f76b4f33498665a4e3bbeee2efbc7392c93b14f79acc4a@295204ce-46c2-4803-a3fd-c028c41b89d9-bluemix.cloudant.com/categories');
+	db = new PouchDB('https://d1539068-0ce6-4628-ac7f-3b5c52df2f67-bluemix:b6ebb29a274e801a8544659a4d20634b3bbb252fbf44ebe7b427a19f53f8c6b4@d1539068-0ce6-4628-ac7f-3b5c52df2f67-bluemix.cloudant.com');
+	catdb = new PouchDB('https://d1539068-0ce6-4628-ac7f-3b5c52df2f67-bluemix:b6ebb29a274e801a8544659a4d20634b3bbb252fbf44ebe7b427a19f53f8c6b4@d1539068-0ce6-4628-ac7f-3b5c52df2f67-bluemix.cloudant.com/categories');
 }
 function addBook()
 {
